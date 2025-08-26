@@ -1,0 +1,34 @@
+.header {
+  &__title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 2em;
+  }
+
+  &__navbar {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff0e6;
+    border: 1px solid #ffd1b3;
+    display: flex;
+    text-align: center;
+
+    a {
+      color: #e67e22;
+      padding: 15px 15px;
+      font-size: 1.08em;
+      text-decoration: none;
+      transition: 0.2s;
+      font-weight: normal;
+      display: inline-block;
+      height: 100%;
+      line-height: 20px;
+
+      &:hover {
+        background: #f9a64a;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
